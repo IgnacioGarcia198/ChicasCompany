@@ -1,0 +1,1 @@
+document.getElementById("campo1").innerHTML = 'Soy Mónica soy muy maja y sé <b>tocar el piano</b>. Puedes llamarme directamente al teléfono <b>666666666</b>. Me gustan <span style="font-size: 2em; color: red; background-color: yellow;">los pokémon.</span> Por eso, si tienes un pikachu te hago un buen descuento.';

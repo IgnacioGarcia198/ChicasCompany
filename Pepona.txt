@@ -1,0 +1,1 @@
+document.getElementById("campo1").innerHTML = 'Soy una chica pelirroja. Mis medidas son 85-58-91. <b>Paso de todo soy punk.</b> Puedes llamarme directamente al teléfono <b>666666666</b>. Me gustan <span style="font-size: 2em; color: red; background-color: yellow;">los dulces.</span> Por eso, si traes bombones te hago un buen descuento.';

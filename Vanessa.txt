@@ -1,0 +1,1 @@
+document.getElementById("campo1").innerHTML = '<span style="font-size: 2em; color: red; background-color: yellow;">A la mierda yo soy un gato miaaaaaaaaauuuu.</span> Por eso, si tienes ratones te hago un buen descuento.';

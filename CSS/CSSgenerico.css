@@ -1,0 +1,130 @@
+/* 
+    Document   : CSSgenerico
+    Created on : 14-dic-2012, 17:06:12
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.caja1 {
+  width:250px; /* ANCHO DEL ÁREA DEL CONTENIDO */ /* ¡OJO! EL ANCHO Y EL ALTO SON DEL CONTENIDO!!! */
+  height:120px; /* ALTO DEL ÁREA DEL CONTENIDO */
+  border:5px solid gray; /* GROSOR DEL BORDE */
+  margin:10px; /* GROSOR DEL MARGEN */
+  padding:10px; /* DISTANCIA ENTRE EL CONTENIDO Y LOS BORDES */
+  /* tb podemos cambiar por separado padding-left, etc etc */
+}
+
+ul.menuHorizontal {
+  /*float:left;*/
+  /*width:100%;*/
+  padding:0;
+  margin:0;
+  list-style-type:none; /* un menú es como una lista sin simbolitos */
+}
+
+ul.menuHorizontal li {display:inline;} /* colocamos la lista en horizontal; ya sólo nos queda crear una lista de enlaces  y será un menú horizontal*/
+
+ ul.menuHorizontal a { /* ESTO ES EL TIPICO MENU HORIZONTAL DE "CAJA"*/
+  /*float:left;*/
+  
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration:none;
+  text-align: center;
+  color:white;
+  background-color: #FFA500;
+  padding:0.2em 0.6em;
+  /*border-right:1px solid white;*/
+}
+
+ul.menuHorizontal a:hover {
+  background-color: darkviolet;
+  font-weight: bold;
+}
+
+/*#iframe1 {
+  //frameborder: 0;
+  border-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%;
+  height: 600px;
+  background-color: #FFFFFF;
+}*/
+
+ul.menuVertical {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+ul.menuVertical a {
+  width:6em;
+  text-decoration:none;
+  text-align: center;
+  color:orange;
+  background-color:blue;
+  padding:0.2em 0.6em;
+  border-top:1px solid red;
+  border-bottom:1px solid red;
+  display: block; /* esto es lo básico para lograr el menú vertical. Si no, queda como el culo. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.imagenConNombre {
+  /*background-color:blue;*/
+}
+
+/*li.imagenConNombre:hover {
+  background-color:yellow;
+}*/
+
+li.imagenConNombre a:hover {
+  font-weight: bold;
+}
+
+h1.tituloPrincipal {
+  display: inline;
+  /*width: 100%;*/
+  background-color: fuchsia;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  padding: 10px;
+  /*position: absolute;
+  top: -0.7em;*/
+}
+
+div.tituloPrincipal {
+}
+
+div.tituloPrincipal p {
+  /*width: 100%;*/
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  padding: 0px;
+  /*position: absolute;
+  top: -0.7em;*/
+}
+
+div.tituloPrincipal a.t {
+  color: white;
+  font-size: 3em;
+  font-family: arial, verdana, sans-serif;
+  text-align: center;
+  padding: 0.5em;
+  display: block;
+  /*position: absolute;
+  top: -0.7em;*/
+}
+
+img.thumbnail 
+{
+  float:left;
+  /*width:120px;
+  height:90px;*/
+  /*padding:5px;*/
+}

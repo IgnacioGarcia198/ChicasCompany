@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caprichos perfectos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" type="text/css" href="CSS/CSSgenerico.css" />
+    <style type="text/css">
+    </style>
+    <!--<script>
+      var anchoVentana = window.innerWidth; // el ancho de la ventana del navegador
+      var altoVentana = window.innerHeight; // el alto de idem
+      var altoancho = altoVentana / anchoVentana;
+      var elFrame = document.getElementById("frame1");
+      function tallaFrame(talla) {
+        var anchoFrame = talla * anchoVentana;
+        var altoFrame = anchoFrame * altoancho;
+        var margen = (anchoVentana - anchoFrame) / 2;
+        elFrame.style.width = anchoFrame + 'px';
+        elFrame.style.height = altoFrame + 'px';
+        //elFrame.style.margin-left = margen + 'px';
+        //elFrame.style.margin-left = margen + 'px';
+      }
+    </script>
+    <script>
+      tallaFrame(0.9);
+    </script>-->
+    
+  </head>
+  <body id="cuerpo" style="width: 50%; background-color: fuchsia;"> 
+    <!--<div class="tituloPrincipal">
+      <a class="t">CAPRICHOS PERFECTOS</a>
+    </div>-->
+    
+    <!--<div style="background-color: #FFA500; width: 90%; margin-left: 50px; margin-right: 50px; padding: 0.2em 0;" 
+    onload="window.alert(document.getElementById('cuerpo'));">
+      <ul class="menuHorizontal" id="menuPrincipal">
+        <li><a href="diapchicas.html" target="iframe1">Quiénes somos</a></li>
+        <li><a href="" target="iframe1">Dónde estamos</a></li>
+        <li><a href="diapchicas.html" target="iframe1">Nuestras chicas</a></li>
+        <li><a href="diapchicas.html" target="iframe1">Información y contacto</a></li>
+      </ul>
+    </div>-->
+    <script>
+      //var anchoVentana = window.innerWidth; // el ancho de la ventana del navegador
+      //var altoVentana = window.innerHeight; // el alto de idem
+      var anchoVentana = screen.availWidth;
+      var altoVentana = screen.availHeight;
+      var altoancho = altoVentana / anchoVentana;
+      var anchoFrame = Math.round(0.9 * anchoVentana);
+      var altoFrame = Math.round(anchoFrame * altoancho);
+      var todomargen = anchoVentana - anchoFrame;
+      document.writeln('<div class="tituloPrincipal" style="width: ' + anchoFrame + 'px; margin-left: ' + (todomargen * 0.4) + 
+      'px; margin-right: ' + (todomargen * 0.6) + 'px;">' +
+      '<a class="t">CAPRICHOS PERFECTOS</a>' +
+      '</div>');
+      document.writeln('<div style="background-color: #FFA500; width: ' + anchoFrame + 'px; margin-left: ' + (todomargen * 0.4) + 
+      'px; margin-right: ' + (todomargen * 0.6) + 'px; padding: 0.2em 0;">' +
+      '<ul class="menuHorizontal" id="menuPrincipal">' +
+        '<li><a href="diapchicas.html" target="iframe1">Quiénes somos</a></li>' +
+        '<li><a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=DHL+Burgos&amp;aq=&amp;sll=42.343992,-3.696906&amp;sspn=0.080694,0.181789&amp;g=Burgos&amp;ie=UTF8&amp;hq=DHL&amp;hnear=Burgos,+Castilla+y+Le%C3%B3n,+Espa%C3%B1a&amp;ll=42.352023,-3.699026&amp;spn=0.035494,0.029297&amp;t=m&amp;output=embed" target="iframe1">Dónde estamos</a></li>' +
+        '<li><a href="diapchicas.html" target="iframe1">Nuestras chicas</a></li>' +
+        '<li><a href="diapchicas.html" target="iframe1">Información y contacto</a></li>' +
+      '</ul>' + '<a name="barra"></a>' +
+    '</div>');
+      //window.alert('<iframe name="iframe1" id="iframe1" src="diapchicas.html" style="width: ' + 
+      //anchoFrame + 'px; height: ' + altoFrame + 'px; left-margin: ' + margen + 'px; right-margin: ' + margen + 'px;"></iframe>');
+      document.writeln('<iframe name="iframe1" id="iframe1" src="diapchicas.html" style="border-style: none; width: ' + 
+      anchoFrame + 'px; height: ' + altoFrame + 'px; margin-left: ' + (todomargen * 0.4) + 'px; margin-right: ' + (todomargen * 0.6) + 'px;"></iframe>');
+      //document.writeln('<iframe name="iframe1" id="iframe1" src="diapchicas.html" style="width: ' + 
+      //800 + 'px; height: ' + 600 + 'px; margin-left: 200px; margin-right: 200px;"></iframe>');
+      
+    </script>
+    <!--<iframe name="iframe1" id="iframe1" src="diapchicas.html"></iframe>-->
+    <!--<script>
+      //var im = "background-image: url('chicas/mikupuerro.jpg');";
+      document.write('<div style="height:' + window.innerHeight* 0.2 + 'px; width:' + window.innerWidth + 'px; background-color: purple;">');
+    </script>-->
+    <!--<div style="height: 80%; width: 100%; background-image: url('chicas/saberburbujas.jpg');">
+      <p>tu puta madre joder</p>
+    </div>-->
+  </body>
+</html>
